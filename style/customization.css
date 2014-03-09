@@ -1,0 +1,52 @@
+body
+{
+background-color:#f2f2f2;
+}
+
+#navbar {
+
+    width: 100%;
+    height: 55px;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: center;
+    background-color: #2e2e2e;
+        border-radius: 0px;
+}
+
+#navbar ul {
+	display: inline;
+    
+}
+
+#navbar li { 
+display: inline; 
+color: white;
+}
+
+h2
+{
+    font-family: 'Roboto Slab', serif;
+    font-size:36px;  
+    font-weight: 300; 
+}
+
+.event {
+    font-size: 24px;
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    text-decoration: underline;
+    line-height: 200%;
+}
+
+span {
+    font-size:14px; 
+    font-color:#2e2e2e;
+}
+
+
+}
+
+a:link {color:#2e2e2e;}      /* unvisited link */
+a:visited {color:#2e2e2e;}  /* visited link */
+a:hover {color:#2e2e2e}  /* mouse over link */
