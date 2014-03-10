@@ -1,3 +1,19 @@
+/*TWEET*/
+h1
+{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size:60px;  
+    font-weight: 300; 
+}
+
+p
+{
+	font-family: 'Roboto', serif;
+	text-align:center;
+	font-size:28px;
+}
+
 /*NAVBAR*/
 header {
     background:#2e2e2e;

@@ -1,0 +1,34 @@
+input, select, textarea { 
+    margin:0; 
+    padding:0; 
+    color: #2e2e2e;
+    outline:none; 
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+	font-size: 24px;
+	color: #2e2e2e;
+	font-family: 'Roboto', sans-serif;  
+    font-weight: 300; 
+}
+
+small {
+	font-family: 'Roboto', sans-serif;
+}
+
+button {
+	padding-top: 20px;
+	background-color: #2e2e2e;
+}
+
+legend {
+	font-size: 24px;
+	color: #2e2e2e;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+form {
+	border:none;
+}

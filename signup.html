@@ -1,0 +1,163 @@
+<html>
+<title>grasswire - The Newsroom of the Internet</title>
+<head>
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
+<link rel="stylesheet" href="style/signupstyling.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,100|Roboto+Slab' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+</head>
+
+<div class="pure-g-r">
+	<div class="pure-u-1-3">
+	<form name="signup_form"
+				class="pure-form-stacked"
+				novalidate
+				ng-submit="signupForm()"
+				ng-controller="SignupController">
+				<fieldset>
+					<legend>Signup</legend>
+					<div>
+						<label for="username">Username</label>
+						<input  type="text"
+						placeholder="username"
+						name="username"
+						ng-model="signup.username"
+						ng-minlength=1
+						ng-maxlength=20
+						ensure-unique="username"
+						required />
+						<div
+							ng-show="signup_form.username.$dirty && signup_form.username.$invalid">
+							<small
+							ng-show="signup_form.username.$error.required">
+							Please input a username
+							</small>
+							<small
+							ng-show="signup_form.username.$error.minlength">
+							Your username is required to be at least 3 characters
+							</small>
+							<small
+							ng-show="signup_form.username.$error.maxlength">
+							Your username cannot be longer than 20 characters
+							</small>
+							<small
+							ng-show="signup_form.username.$error.unique">
+							That username is taken, please try another
+							</small>
+						</div>
+					</div>
+					<div class="row">
+						<div class="large-12 columns">
+							<label>Email (optional)</label>
+							<input
+							class="form-control col-sm-10"
+							type="email"
+							placeholder="email"
+							name="email"
+							ng-model="signup.email"
+							/>
+							<div
+								ng-show="signup_form.email.$dirty && signup_form.email.$invalid && signup_form.submitted">
+								<small
+								ng-show="signup_form.email.$error.email">
+								That is not a valid email. Please input a valid email or leave it blank.
+								</small>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div >
+							<label>Password</label>
+							<input
+							type="password"
+							placeholder="password"
+							name="password"
+							ng-model="signup.password"
+							ng-minlength=8 ng-maxlength=20 required/>
+							<div
+								ng-show="signup_form.password.$dirty && signup_form.password.$invalid && signup_form.submitted">
+								<small
+								ng-show="signup_form.password.$password.required">
+								A password is required.
+								</small>
+								<small
+								ng-show="signup_form.password.$error.minlength">
+								Your password is required to be at least 8 characters
+								</small>
+								<small
+								ng-show="signup_form.password.$error.maxlength">
+								Your password cannot be longer than 20 characters
+								</small>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div >
+							<button type="submit" id="singlebutton" name="singlebutton" class="pure-button pure-button-primary" style="background-color:#2e2e2e;">create account</button>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+	</div>
+
+			<div class="pure-u-1-3">
+			<form name="login_form"
+				class="pure-form-stacked"
+				novalidate
+				ng-submit="login_form()"
+				ng-controller="SignupController">
+				<fieldset>
+					<legend>Log in</legend>
+					<div>
+						<label for="username">Username</label>
+						<input  type="text"
+						placeholder="username"
+						name="username"
+						ng-model="signup.username"
+						ng-minlength=1
+						ng-maxlength=20
+						ensure-unique="username"
+						required />
+						<div
+							ng-show="signup_form.username.$dirty && signup_form.username.$invalid">
+							<small
+							ng-show="signup_form.username.$error.required">
+							Please input a username
+							</small>
+						</div>
+					</div>
+					<div>
+						<div >
+							<label>Password</label>
+							<input
+							type="password"
+							placeholder="password"
+							name="password"
+							ng-model="signup.password"
+							ng-minlength=8 ng-maxlength=20 required/>
+							<div
+								ng-show="signup_form.password.$dirty && signup_form.password.$invalid && signup_form.submitted">
+								<small
+								ng-show="signup_form.password.$password.required">
+								A password is required.
+								</small>
+								<small
+								ng-show="signup_form.password.$error.minlength">
+								Your password is required to be at least 8 characters
+								</small>
+								<small
+								ng-show="signup_form.password.$error.maxlength">
+								Your password cannot be longer than 20 characters
+								</small>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div >
+							<button type="submit" id="singlebutton" name="singlebutton" class="pure-button pure-button-primary" style="background-color:#2e2e2e;">Log in</button>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+</div>			
