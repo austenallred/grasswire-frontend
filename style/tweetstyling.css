@@ -26,8 +26,9 @@ width:  100%; /*Specify Width*/
 margin-top: 10px;
 margin-bottom: 0px; /*Add 1px solid border, use any color you want*/
 background-color: white; /*Add a background color to the box*/
-float: center;
-margin-right: 10px;
+text-align: center;
+float: right;
+
 }
 
 .tweet {
