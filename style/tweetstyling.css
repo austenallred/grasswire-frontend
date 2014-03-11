@@ -1,4 +1,126 @@
 /*TWEET*/
+.favbox {
+height: 85px; /*Specify Height*/
+width:  100%; /*Specify Width*/
+margin-top: 10px;
+margin-bottom: 0px; /*Add 1px solid border, use any color you want*/
+background-color: white; /*Add a background color to the box*/
+text-align:center; /*Align the text to the center*/
+float: center;
+margin-left: 10px;
+}
+
+.tweetbox a {
+	font-size:15px;
+	color: #2e2e2e;
+}
+
+.favbox a {
+	font-size:15px;
+	color: #2e2e2e;
+}
+
+.tweetbox {
+height: 85px; /*Specify Height*/
+width:  100%; /*Specify Width*/
+margin-top: 10px;
+margin-bottom: 0px; /*Add 1px solid border, use any color you want*/
+background-color: white; /*Add a background color to the box*/
+float: center;
+margin-right: 10px;
+}
+
+.tweet {
+	width: 80%;
+	display:inline-block;
+	font-family: sans-serif;
+	color: #2e2e2e;
+	font-size: 15px;
+	text-align: left;
+	background: #fff;
+	margin-top: 2px;
+	margin-left: 10px;
+	
+}
+.tweet_image {
+	margin-top: 1px;
+	float: left;
+	width: 48px;
+	height: 480x;
+	padding: 8px 0 0 5px;
+}
+.tweet_image img {
+	border: none;
+}
+
+.tweet_screen_name {
+	font-size: 13px;
+	font-weight: bold;
+	text-align:center;
+	color:#2e2e2e;
+	text-decoration: none;
+	margin-bottom: none;
+	float: left;
+	margin-left: 25px;
+}
+.tweet_screen_name a:hover {
+	text-decoration: underline;
+}
+.user_name {
+	font-size: 13px;
+	color: #808080;
+	padding-left: 10px;
+	float: left;
+}
+.tweet_text {
+	font-size: 100%;
+}
+.tweet_text a {
+	text-decoration: none;
+}
+.tweet_text a:hover {
+	text-decoration: underline;
+}
+.timestamp {
+	font-size: 80%;
+	color: #808080;
+	margin-top: 2px;
+	float: right;
+	text-decoration: none;
+	margin-right: 7px;
+}
+.tweet_date a:hover {
+	text-decoration: underline;
+}
+
+
+.sort_by {
+	font-size:20px;
+	margin-top: 5px;
+	margin-left: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-color: #2e2e2e;
+}
+
+.pausebutton {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 300px;
+}
+
+
+body a
+{ 	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size:38px;
+	text-decoration: underline;
+	color: #2e2e2e;}
+
+h4
+{
+	
+}
+
 h1
 {
     font-family: 'Roboto Slab', serif;
