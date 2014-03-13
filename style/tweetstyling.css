@@ -34,8 +34,9 @@ float: right;
 .tweet {
 	width: 80%;
 	display:inline-block;
-	font-family: sans-serif;
+	font-family: 'Helvetica' sans-serif;
 	color: #2e2e2e;
+	font-weight: 400;
 	font-size: 15px;
 	text-align: left;
 	background: #fff;
@@ -99,20 +100,19 @@ float: right;
 	font-size:20px;
 	margin-top: 5px;
 	margin-left: 10px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	font-color: #2e2e2e;
 }
 
 .pausebutton {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	text-align: center;
 	font-size: 300px;
 }
 
-
 body a
 { 	text-align: center;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	font-size:38px;
 	text-decoration: underline;
 	color: #2e2e2e;}
@@ -124,17 +124,18 @@ h4
 
 h1
 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Helvetica', serif;
     text-align: center;
     font-size:60px;  
-    font-weight: 300; 
+    font-weight: 400; 
 }
 
 p
 {
-	font-family: 'Roboto', serif;
+	font-family: 'Helvetica', serif;
 	text-align:center;
 	font-size:28px;
+	font-weight: 300;
 }
 
 /*NAVBAR*/
@@ -192,7 +193,7 @@ li {
 li a {
     text-decoration:none; 
     color:white; 
-    font-family: 'Roboto:', sans-serif; 
+    font-family: 'Helvetica:', sans-serif; 
     font-size:20px; 
     font-weight: 300;
 }
@@ -230,14 +231,14 @@ color: white;
 
 h2
 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Helvetica', serif;
     font-size:36px;  
     font-weight: 300; 
 }
 
 .event {
     font-size: 24px;
-    font-family: 'Roboto', serif;
+    font-family: 'Helvetica', serif;
     font-weight: 300;
     text-decoration: underline;
     line-height: 200%;
