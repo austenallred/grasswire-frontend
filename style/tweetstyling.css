@@ -297,14 +297,20 @@ span {
 }
 
 .votearrow {
-    width:20px;
-    height:20px;
-    background: url(../assets/arrow20.png) center;
+    width:21px;
+    height:21px;
+    background: url(../assets/roundeduparrow.png) center;
     position: absolute;
+    background-repeat:no-repeat;
     left:-40px;
     top:13px;
     z-index: 200;
     font-size: 18px;
+}
+
+.votearrow:hover {
+    background: url(../assets/bluerounded.png) center;
+    background-repeat: no-repeat;
 }
 
 
