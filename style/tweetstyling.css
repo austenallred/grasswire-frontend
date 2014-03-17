@@ -15,8 +15,17 @@ background-color: white; /*Add a background color to the box*/
 text-align:center; /*Align the text to the center*/
 position: relative;
 z-index: 1;
-
 }
+
+.picbox {
+min-height: 65px;
+width:  600px; /*Specify Width*/
+margin-top: 10px;
+margin-bottom: 0px; /*Add 1px solid border, use any color you want*/
+background-color: white; /*Add a background color to the box*/
+text-align:center; /*Align the text to the center*/
+position: relative;
+z-index: 1;}
 
 .buttonbox{
     height: 37px;
@@ -298,6 +307,37 @@ span {
     font-size: 18px;
 }
 
+
+.triangle,
+.triangle:before,
+.triangle:after {
+    width:  10em;
+    height: 10em;
+    position: relative;
+    background: orange;
+    border-top-right-radius: 30%;
+    margin: 30% auto 0;
+}
+.triangle:before,
+.triangle:after {
+    content: '';
+    position: absolute;
+    margin: 0;
+}
+
+.triangle {
+    transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+}
+.triangle:before {
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangle:after {
+    transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+.triangle:hover { background: rgba(0,0,255,.5) }
+.triangle:hover:before { background: rgba(255,0,0,.5) }
+.triangle:hover:after { background: rgba(255,255,0,.5) }
 
 /*MEDIA QUERY*/
 @media only screen and (max-width : 640px) {
