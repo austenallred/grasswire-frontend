@@ -40,9 +40,7 @@ z-index: 1;}
     margin-top: -100px;
     margin-left: 3px;
     width: 217px;
-    vertical-align:center;
-    float:top;
-    display: inline;
+
 }
 
 .fcdesc {
@@ -53,9 +51,14 @@ z-index: 1;}
 
 .fcradio {
     display:inline-block;
-    position:relative;
-    margin-bottom: -20px;
-    font-size: 14px; 
+    font-size: 15px; 
+    line-height: 5px;
+    vertical-align: middle;
+
+}
+
+.purerad {
+    display: inline-block;
 }
 
 .move-stuff {
@@ -74,21 +77,47 @@ z-index: 1;}
 }
 
 .fctext {
-    text-align: center;
     font-size: 16px;
-
+    color:#808080; 
+    margin-top: 6px;
+    margin-bottom: -3px;
+    margin-left: 3px;
 }
 
-.button-success {
-    color: white;
-    background: rgb(28, 184, 65);
+.fctext-bottom {
+    font-size: 16px;
+    color:#808080; 
+    margin-top: -12px;
+    margin-bottom: 2px;
+    margin-left: 3px;
 }
 
-.button-error {
-    color: white;
-    background: rgb(202, 60, 60); 
+.refutedfactcheck {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-bottom: 3px;
 }
 
+.confirmedfactcheck {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+.refutedfactcheck a {
+    color:#0078e7;
+}
+.confirmedfactcheck a {
+    color:#0078e7;
+}
+
+.fact-checks {
+    margin-top: -12px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
 
 .menu-btn { 
     display:inline-block;
@@ -214,13 +243,6 @@ z-index: 1;}
 	text-align: center;
 	font-size: 300px;
 }
-
-body a
-{ 	text-align: center;
-	font-family: 'Helvetica', sans-serif;
-	font-size:38px;
-	text-decoration: underline;
-	color: #2e2e2e;}
 
 h1
 {
@@ -359,6 +381,7 @@ span {
     top:13px;
     z-index: 200;
     font-size: 18px;
+    color: #2e2e2e;
 }
 
 .votearrow:hover {
