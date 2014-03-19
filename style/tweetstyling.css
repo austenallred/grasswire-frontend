@@ -6,24 +6,13 @@
     display: none;
 }
 
-.favbox {
-height: 65px; /*Specify Height*/
-width:  600px; /*Specify Width*/
-margin-top: 10px;
-margin-bottom: 0px; /*Add 1px solid border, use any color you want*/
-background-color: white; /*Add a background color to the box*/
-text-align:center; /*Align the text to the center*/
-position: relative;
-z-index: 1;
-}
-
 .picbox {
 min-height: 65px;
-width:  600px; /*Specify Width*/
+width:  600px; 
 margin-top: 10px;
-margin-bottom: 0px; /*Add 1px solid border, use any color you want*/
-background-color: white; /*Add a background color to the box*/
-text-align:center; /*Align the text to the center*/
+margin-bottom: 0px; 
+background-color: white; 
+text-align:center; 
 position: relative;
 z-index: 1;}
 
@@ -36,6 +25,70 @@ z-index: 1;}
     border-top: 1px solid #d7d7d7;
     z-index: 1;
 }
+
+.fcbox{
+    min-height: 65px;
+    width: 600px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    border-top: 1px solid #d7d7d7;
+    z-index: 1;
+}
+
+.fcurl {
+    margin-top: -100px;
+    margin-left: 3px;
+    width: 217px;
+    vertical-align:center;
+    float:top;
+    display: inline;
+}
+
+.fcdesc {
+    width:217px;
+    display:inline;
+    float:top;
+}
+
+.fcradio {
+    display:inline-block;
+    position:relative;
+    margin-bottom: -20px;
+    font-size: 14px; 
+}
+
+.move-stuff {
+    margin-bottom: -90px;
+}
+
+.fcbutton {
+    display:inline;
+}
+.fcsubmit {
+    font-size: 16px;
+    color: #2e2e2e;
+    margin-top: 2px;
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.fctext {
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.button-success {
+    color: white;
+    background: rgb(28, 184, 65);
+}
+
+.button-error {
+    color: white;
+    background: rgb(202, 60, 60); 
+}
+
 
 .menu-btn { 
     display:inline-block;
@@ -260,7 +313,7 @@ padding-top: 45px;
     font-size: 16px;
     font-family: Tahoma, Geneva, sans-serif;
     text-align: center;
-    background-color: #2e2e2e;
+    background-color: #e9e9e9;
         border-radius: 0px;
     position: relative;    
 }
