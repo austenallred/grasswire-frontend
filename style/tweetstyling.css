@@ -3,8 +3,35 @@
     height: 223px;
     width: 600px;
     background-color: #fff;
-    display: none;
 }
+
+.pause-button {
+    text-align: center;
+    
+}
+
+.play-button {
+    text-align: center;
+    display: none;
+
+}
+
+.button-pause {
+            background: rgb(202, 60, 60); /* this is a maroon */
+            color: white;
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: -5px;
+        }
+
+.button-play {
+    background: rgb(28, 184, 65); /* this is a maroon */
+            color: white;
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: -5px;
+}        
+
 
 .picbox {
 min-height: 65px;
