@@ -1,10 +1,3 @@
-/*TWEET*/
-.factcheckbox{
-    height: 223px;
-    width: 600px;
-    background-color: #fff;
-}
-
 .pause-button {
     text-align: center;
     display: none;
@@ -12,8 +5,6 @@
 
 .play-button {
     text-align: center;
-    
-
 }
 
 .button-pause {
@@ -22,7 +13,7 @@
             text-align: center;
             margin-top: 5px;
             margin-bottom: -5px;
-        }
+}
 
 .button-play {
     background: rgb(28, 184, 65); /* this is a maroon */
@@ -30,8 +21,25 @@
             text-align: center;
             margin-top: 5px;
             margin-bottom: -5px;
-}        
+}   
 
+.votearrow {
+    width:21px;
+    height:21px;
+    background: url(../images/roundeduparrow.png) center;
+    position: absolute;
+    background-repeat:no-repeat;
+    left:-40px;
+    top:13px;
+    z-index: 200;
+    font-size: 18px;
+    color: #2e2e2e;
+}
+
+.votearrow:hover {
+    background: url(../images/bluerounded.png) center;
+    background-repeat: no-repeat;
+}     
 
 .picbox {
 min-height: 65px;
@@ -41,7 +49,8 @@ margin-bottom: 0px;
 background-color: white; 
 text-align:center; 
 position: relative;
-z-index: 1;}
+z-index: 1;
+}
 
 .buttonbox{
     height: 37px;
@@ -53,7 +62,7 @@ z-index: 1;}
     z-index: 1;
 }
 
-.fcbox{
+.factcheckbox{
     min-height: 65px;
     width: 600px;
     margin-top: 0px;
@@ -63,20 +72,19 @@ z-index: 1;}
     z-index: 1;
 }
 
-.fcurl {
+.factcheckurlinput {
     margin-top: -100px;
     margin-left: 3px;
     width: 217px;
-
 }
 
-.fcdesc {
+.factcheckdescription {
     width:217px;
     display:inline;
     float:top;
 }
 
-.fcradio {
+.factcheckradio {
     display:inline-block;
     font-size: 15px; 
     line-height: 5px;
@@ -88,23 +96,17 @@ z-index: 1;}
     margin-top: -12px;
     margin-bottom: 5px;
 }
+
 .factcheckfail small {
     font-size: 15px;
     color: red;
 }
 
-.purerad {
-    display: inline-block;
-}
-
-.move-stuff {
-    margin-bottom: -90px;
-}
-
-.fcbutton {
+.factcheckbutton {
     display:inline;
 }
-.fcsubmit {
+
+.factchecksubmit {
     font-size: 16px;
     color: #2e2e2e;
     margin-top: 2px;
@@ -112,7 +114,7 @@ z-index: 1;}
     font-family: 'Helvetica', sans-serif;
 }
 
-.fctext {
+.factchecktext {
     font-size: 16px;
     color:#808080; 
     margin-top: 6px;
@@ -120,7 +122,7 @@ z-index: 1;}
     margin-left: 3px;
 }
 
-.fctext-bottom {
+.factchecktext-bottom {
     font-size: 16px;
     color:#808080; 
     margin-top: -12px;
@@ -145,6 +147,7 @@ z-index: 1;}
 .refutedfactcheck a {
     color:#0078e7;
 }
+
 .confirmedfactcheck a {
     color:#0078e7;
 }
@@ -158,7 +161,8 @@ z-index: 1;}
     display:inline-block;
     width:33%;
     margin:0;
-    padding:0;}
+    padding:0;
+}
 
 .red {
     color: red;
@@ -196,11 +200,6 @@ z-index: 1;}
     font-family: sans-serif; 
 }
 
-.tweetbox a {
-	font-size:15px;
-	color: #2e2e2e;
-}
-
 .tweet {
 	width: 80%;
 	display:inline-block;
@@ -212,8 +211,8 @@ z-index: 1;}
 	background: #fff;
 	margin-top: 2px;
 	margin-left: 10px;
-	
 }
+
 .tweet_image {
 	margin-top: 1px;
 	float: left;
@@ -221,6 +220,7 @@ z-index: 1;}
 	height: 480x;
 	padding: 8px 0 0 5px;
 }
+
 .tweet_image img {
 	border: none;
 }
@@ -235,24 +235,30 @@ z-index: 1;}
 	float: left;
 	margin-left: 25px;
 }
+
 .tweet_screen_name a:hover {
 	text-decoration: underline;
 }
+
 .user_name {
 	font-size: 13px;
 	color: #808080;
 	padding-left: 10px;
 	float: left;
 }
+
 .tweet_text {
 	font-size: 100%;
 }
+
 .tweet_text a {
 	text-decoration: none;
 }
+
 .tweet_text a:hover {
 	text-decoration: underline;
 }
+
 .timestamp {
 	font-size: 80%;
 	color: #808080;
@@ -261,6 +267,7 @@ z-index: 1;}
 	text-decoration: none;
 	margin-right: 7px;
 }
+
 .tweet_date a:hover {
 	text-decoration: underline;
 }
@@ -279,16 +286,14 @@ z-index: 1;}
 	font-size: 300px;
 }
 
-h1
-{
+h1 {
     font-family: 'Helvetica', serif;
     text-align: center;
     font-size:60px;  
     font-weight: 400; 
 }
 
-p
-{
+p {
 	font-family: 'Helvetica', serif;
 	text-align:center;
 	font-size:28px;
@@ -318,8 +323,7 @@ header {
 
 
 nav {
-    float: right;
-    
+    float: right;   
 }
 
 #menu-icon {
@@ -337,14 +341,12 @@ a:hover#menu-icon {
 
 ul {
     list-style: none;
-
 }
 
 li {
     display: inline-block;
     float: left;
-    padding-right: 20px;
-    
+    padding-right: 20px;   
 }
 
 li a {
@@ -356,29 +358,26 @@ li a {
 }
 
 
-body
-{
-background-color:#f2f2f2;
-padding-top: 45px;
+body{
+    background-color:#f2f2f2;
+    padding-top: 45px;
 }
 
 
 #navbar {
-
     width: 100%;
     height: 55px;
     font-size: 16px;
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: 'Helvetica', sans-serif;
     text-align: center;
     background-color: #e9e9e9;
-        border-radius: 0px;
+    border-radius: 0px;
     position: relative;    
 }
 
 #navbar ul {
 	display: inline;
     width: 25%;
-    
 }
 
 #navbar li { 
@@ -386,75 +385,11 @@ display: inline;
 color: white;
 }
 
-h2
-{
-    font-family: 'Helvetica', serif;
-    font-size:36px;  
-    font-weight: 300; 
-}
-
-.event {
-    font-size: 24px;
-    font-family: 'Helvetica', serif;
-    font-weight: 300;
-    text-decoration: underline;
-    line-height: 200%;
-}
 
 span {
     font-size:14px; 
     font-color:#2e2e2e;
 }
-
-.votearrow {
-    width:21px;
-    height:21px;
-    background: url(../images/roundeduparrow.png) center;
-    position: absolute;
-    background-repeat:no-repeat;
-    left:-40px;
-    top:13px;
-    z-index: 200;
-    font-size: 18px;
-    color: #2e2e2e;
-}
-
-.votearrow:hover {
-    background: url(../images/bluerounded.png) center;
-    background-repeat: no-repeat;
-}
-
-
-.triangle,
-.triangle:before,
-.triangle:after {
-    width:  10em;
-    height: 10em;
-    position: relative;
-    background: orange;
-    border-top-right-radius: 30%;
-    margin: 30% auto 0;
-}
-.triangle:before,
-.triangle:after {
-    content: '';
-    position: absolute;
-    margin: 0;
-}
-
-.triangle {
-    transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
-}
-.triangle:before {
-    transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
-}
-.triangle:after {
-    transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
-}
-
-.triangle:hover { background: rgba(0,0,255,.5) }
-.triangle:hover:before { background: rgba(255,0,0,.5) }
-.triangle:hover:after { background: rgba(255,255,0,.5) }
 
 /*MEDIA QUERY*/
 @media only screen and (max-width : 640px) {
