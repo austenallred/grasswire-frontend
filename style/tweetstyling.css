@@ -7,12 +7,12 @@
 
 .pause-button {
     text-align: center;
-    
+    display: none;
 }
 
 .play-button {
     text-align: center;
-    display: none;
+    
 
 }
 
