@@ -81,6 +81,16 @@ z-index: 1;}
     font-size: 15px; 
     line-height: 5px;
     vertical-align: middle;
+}
+
+
+.factcheckfail {
+    margin-top: -12px;
+    margin-bottom: 5px;
+}
+.factcheckfail small {
+    font-size: 15px;
+    color: red;
 
 }
 
@@ -141,7 +151,6 @@ z-index: 1;}
 }
 
 .fact-checks {
-    margin-top: -12px;
     margin-bottom: 5px;
     padding-bottom: 5px;
 }

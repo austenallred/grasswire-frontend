@@ -81,7 +81,7 @@
 			<form class="pure-form">
 			   <fieldset>
 			      
-			        <input type="URL" placeholder="URL (Required)" class="fcurl">
+			        <input type="URL" placeholder="URL" class="fcurl">
 			        <input type="text" placeholder="Description" class="fcdesc">
 			    <div class="fcradio">     
 				    <label for="option-one" class="pure-radio">
@@ -95,9 +95,26 @@
 				    </label>
 				</div> 
 
+				
+
+
 			        <button type="submit" class="pure-button pure-button-primary fcbutton">Submit</button>
 			    </fieldset>
 			</form>
+
+		<div class="factcheckfail">
+			<small>
+			Please input a URL
+			</small>
+			<small>
+			Please input a description
+			</small>
+			<small>
+			Please select "confirm" or "refute"
+			</small>
+		</div>
+				
+
 	<div class="fact-checks">		
 		<div class="refutedfactcheck">		
 			<img src="assets/no.png"> <a class="factcheck" href="http://austenallred.com">Those are BMPs not tanks</a> (5 minutes ago by austenallred)
