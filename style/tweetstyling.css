@@ -91,7 +91,6 @@ z-index: 1;}
 .factcheckfail small {
     font-size: 15px;
     color: red;
-
 }
 
 .purerad {
@@ -327,7 +326,7 @@ nav {
     display: hidden;
     width: 40px;
     height: 40px;
-    background: #2e2e2e url(../assets/menuwhite.png) center;
+    background: #2e2e2e url(../images/menuwhite.png) center;
     margin-right: 12px;
     margin-top: 7px;
 }
@@ -410,7 +409,7 @@ span {
 .votearrow {
     width:21px;
     height:21px;
-    background: url(../assets/roundeduparrow.png) center;
+    background: url(../images/roundeduparrow.png) center;
     position: absolute;
     background-repeat:no-repeat;
     left:-40px;
@@ -421,7 +420,7 @@ span {
 }
 
 .votearrow:hover {
-    background: url(../assets/bluerounded.png) center;
+    background: url(../images/bluerounded.png) center;
     background-repeat: no-repeat;
 }
 
